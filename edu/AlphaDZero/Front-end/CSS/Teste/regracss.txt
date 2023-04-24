@@ -1,0 +1,19 @@
+seletor -> elemento selecionado para ser estilizado
+seletor simples -> nome do elemento
+seletor classe -> seleciona o elemento por meio de classe (serve para mais de 1 elemento)
+seletor id -> seleciona um elemento específico
+
+exemplo
+
+nome {
+    propriedade: valor;
+}
+
+.classe {
+    propriedade: valor;
+}
+
+#id {
+    propriedade: valor;
+}
+
