@@ -2,6 +2,7 @@ seletor -> elemento selecionado para ser estilizado
 seletor simples -> nome do elemento
 seletor classe -> seleciona o elemento por meio de classe (serve para mais de 1 elemento)
 seletor id -> seleciona um elemento específico
+seletor universal -> * seleciona todos os elementos
 
 exemplo
 
@@ -14,6 +15,10 @@ nome {
 }
 
 #id {
+    propriedade: valor;
+}
+
+*{
     propriedade: valor;
 }
 

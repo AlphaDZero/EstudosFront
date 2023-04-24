@@ -18,8 +18,13 @@ h2 {
     font-size: 1.2em;
 }
 
-.link_pag {
+.link_pag, .link_return{
     text-align: right;
+    font-size: 0.7em;
+}
+
+.link_return{
+    text-align: left;
 }
 
 #titulo {
