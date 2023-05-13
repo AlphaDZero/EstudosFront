@@ -1,0 +1,46 @@
+#d1{
+    height: 100px;
+}
+
+#d11{
+    width: 140px;
+    position: relative;
+    left: 17%;
+    top: 25%;
+}
+
+#d12{
+    width: 200px;
+    position: relative;
+    left: 17%;
+    top: 29%;
+}
+
+.molde{
+    height: 368px;
+    width: 290px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+#d2{
+    display: flex;
+    justify-content: center;
+
+}
+
+#d21{
+    background-image: url(Projeto/barraca290.jpg);
+}
+
+#d22{
+    background-image: url(Projeto/caneca290.jpg);
+}
+
+#d23{
+    background-image: url(Projeto/bolsa290.jpg);
+}
+
+#d3{
+    height: 100px;
+}
