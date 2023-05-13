@@ -4,10 +4,6 @@
     margin: 0px;
 }
 
-#cards{
-    height: 440px;
-}
-
 #b1{
     height: 152px;
 }
@@ -34,13 +30,15 @@ h2{
     width: 400px;
     text-align: justify;
     position: relative;
-    left: 58%;
+    left: 53.5%;
     bottom: 8%;
 }
 
 #b2{
-    background-color: brown;
-    height: 400px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body::-webkit-scrollbar{
@@ -50,4 +48,56 @@ body::-webkit-scrollbar{
 body{
     overflow: -moz-scrollbars-none; /*Firefox*/
     -ms-overflow-style: none; /*Internet Explorer +10*/
+}
+
+.caixas{
+    width: 270px;
+    height: 270px;
+    background-color: #222;
+    border-radius: 3%;
+    color: white;
+    margin: 0px 25px;
+}
+
+.b23{
+    position: relative;
+    left: 70%;
+    top: 34%;
+}
+
+#bt{
+    position: relative;
+    left: 60%;
+}
+
+.b22{
+    text-align: center;
+    position: relative;
+    top: 24%;
+}
+
+#b22{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b21{
+    width: 32px;
+    position: relative;
+    left: 12%;
+    top: 15%;
+}
+
+#b3{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 10px 0px;
+}
+
+.b31{
+    width: 270px;
+    text-align: justify;
+    margin: 0px 25px;
 }
